@@ -1,0 +1,8 @@
+  468  cd Downloads/linux-gpib-4.3.0/linux-gpib-kernel-4.3.0/drivers/gpib/sys/
+  469  ls
+  470  sudo insmod gpib_common.ko
+  471  cd ..
+  472  cd ni_usb/
+  473  sudo insmod ni_usb_gpib.ko
+  474  sudo gpib_config 
+ 
